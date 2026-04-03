@@ -1,4 +1,4 @@
-#include "vio_slam/imu/imu_initializer.h"
+#include "vio_slam/imu/imu_initializer.hpp"
 
 namespace vio_slam {
 namespace imu {

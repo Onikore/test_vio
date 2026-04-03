@@ -1,4 +1,4 @@
-#include "vio_slam/utils/math_utils.h"
+#include "vio_slam/utils/math_utils.hpp"
 
 namespace vio_slam {
 namespace utils {

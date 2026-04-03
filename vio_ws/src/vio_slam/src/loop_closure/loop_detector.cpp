@@ -1,4 +1,4 @@
-#include "vio_slam/loop_closure/loop_detector.h"
+#include "vio_slam/loop_closure/loop_detector.hpp"
 
 namespace vio_slam {
 namespace loop_closure {

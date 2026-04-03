@@ -1,4 +1,4 @@
-#include "vio_slam/mapping/sparse_map.h"
+#include "vio_slam/mapping/sparse_map.hpp"
 
 namespace vio_slam {
 namespace mapping {

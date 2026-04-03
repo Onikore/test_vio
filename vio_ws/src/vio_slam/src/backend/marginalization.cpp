@@ -1,4 +1,4 @@
-#include "vio_slam/backend/marginalization.h"
+#include "vio_slam/backend/marginalization.hpp"
 
 namespace vio_slam {
 namespace backend {

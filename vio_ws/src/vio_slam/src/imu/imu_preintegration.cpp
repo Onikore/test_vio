@@ -1,4 +1,4 @@
-#include "vio_slam/imu/imu_preintegration.h"
+#include "vio_slam/imu/imu_preintegration.hpp"
 
 namespace vio_slam {
 namespace imu {

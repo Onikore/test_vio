@@ -1,4 +1,4 @@
-#include "vio_slam/camera/camera_model.h"
+#include "vio_slam/camera/camera_model.hpp"
 
 namespace vio_slam {
 namespace camera {

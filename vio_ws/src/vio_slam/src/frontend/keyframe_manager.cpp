@@ -1,4 +1,4 @@
-#include "vio_slam/frontend/keyframe_manager.h"
+#include "vio_slam/frontend/keyframe_manager.hpp"
 
 namespace vio_slam {
 namespace frontend {

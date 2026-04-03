@@ -1,4 +1,4 @@
-#include "vio_slam/backend/sliding_window_optimizer.h"
+#include "vio_slam/backend/sliding_window_optimizer.hpp"
 
 namespace vio_slam {
 namespace backend {
