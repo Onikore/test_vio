@@ -1,0 +1,46 @@
+# EuRoC Mono Configuration
+
+camera:
+  type: "pinhole_radtan"
+  image_width: 752
+  image_height: 480
+  fps: 20.0
+  intrinsics: [367.0, 367.0, 379.0, 255.0]  # fx, fy, cx, cy
+  distortion: [-0.28340811, 0.07395907, 0.00019359, 1.76187114e-05]  # k1, k2, p1, p2
+
+imu:
+  gyro_noise_std: 0.000244
+  accel_noise_std: 0.001862
+  gyro_bias_random_walk: 0.000038785
+  accel_bias_random_walk: 0.0000579
+  imu_rate: 200.0
+
+frontend:
+  max_features: 150
+  min_features_per_cell: 2
+  grid_rows: 6
+  grid_cols: 8
+  quality_level: 0.01
+  min_distance: 15.0
+  pyramid_levels: 3
+
+keyframe:
+  min_parallax_px: 15.0
+  min_features: 80
+  min_time_interval: 0.5
+  orb_max_keypoints: 800
+
+backend:
+  window_size: 10
+  max_iterations: 8
+  solver_tolerance: 1e-6
+
+loop_closure:
+  vocabulary_path: "/path/to/vocabulary.yml.gz"
+  min_score: 0.15
+  temporal_gap: 20
+  min_inliers: 30
+
+mapping:
+  octree_resolution: 0.1
+  max_points: 5000
