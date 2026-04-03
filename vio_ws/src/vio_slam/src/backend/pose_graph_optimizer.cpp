@@ -1,4 +1,4 @@
-#include "vio_slam/backend/pose_graph_optimizer.h"
+#include "vio_slam/backend/pose_graph_optimizer.hpp"
 
 namespace vio_slam {
 namespace backend {

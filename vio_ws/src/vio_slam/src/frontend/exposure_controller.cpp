@@ -1,4 +1,4 @@
-#include "vio_slam/frontend/exposure_controller.h"
+#include "vio_slam/frontend/exposure_controller.hpp"
 
 namespace vio_slam {
 namespace frontend {

@@ -1,4 +1,4 @@
-#include "vio_slam/loop_closure/relocalization.h"
+#include "vio_slam/loop_closure/relocalization.hpp"
 
 namespace vio_slam {
 namespace loop_closure {

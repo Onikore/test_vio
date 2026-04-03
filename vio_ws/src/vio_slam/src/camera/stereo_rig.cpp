@@ -1,4 +1,4 @@
-#include "vio_slam/camera/stereo_rig.h"
+#include "vio_slam/camera/stereo_rig.hpp"
 
 namespace vio_slam {
 namespace camera {

@@ -1,4 +1,4 @@
-#include "vio_slam/utils/thread_safe_queue.h"
+#include "vio_slam/utils/thread_safe_queue.hpp"
 
 namespace vio_slam {
 namespace utils {

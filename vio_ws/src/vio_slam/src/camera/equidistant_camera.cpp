@@ -144,6 +144,12 @@ Eigen::Matrix<double, 2, 3> EquidistantCamera::dproject(const Eigen::Vector3d& p
     const double dr_dx = x / (r * z);
     const double dr_dy = y / (r * z);
     
+    // Distorted coordinates
+    const double theta_d = k1 * theta + k2 * theta * theta2 + k3 * theta * theta2 * theta2 + 
+                           k4 * theta * theta2 * theta2 * theta2;
+    const double xd = x * theta_d / r;
+    const double yd = y * theta_d / r;
+    
     // Jacobian of distorted coordinates
     double d_xd_dx, d_xd_dy, d_yd_dx, d_yd_dy;
     if (r > 1e-10) {

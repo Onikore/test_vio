@@ -1,4 +1,4 @@
-#include "vio_slam/mapping/occupancy_grid_builder.h"
+#include "vio_slam/mapping/occupancy_grid_builder.hpp"
 
 namespace vio_slam {
 namespace mapping {

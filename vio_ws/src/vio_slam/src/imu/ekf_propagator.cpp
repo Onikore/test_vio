@@ -1,4 +1,4 @@
-#include "vio_slam/imu/ekf_propagator.h"
+#include "vio_slam/imu/ekf_propagator.hpp"
 
 namespace vio_slam {
 namespace imu {

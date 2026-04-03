@@ -1,4 +1,4 @@
-#include "vio_slam/utils/config.h"
+#include "vio_slam/utils/config.hpp"
 
 namespace vio_slam {
 namespace utils {
