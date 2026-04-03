@@ -1,41 +1,45 @@
 ```
-# CMake and build artifacts
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-bin/
-lib/
-build/
-devel/
-
-# ROS specific
+# Compiled and build artifacts
+*.o
+*.obj
 *.so
 *.a
-*.o
+*.dll
+*.exe
 *.out
-*.pyc
-__pycache__/
-*.bag
-*.log
 
-# IDE and editor files
-.vscode/
-.idea/
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
-*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Coverage and testing
+# Coverage
 coverage/
 htmlcov/
 .coverage
@@ -59,8 +63,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
